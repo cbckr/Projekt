@@ -26,7 +26,7 @@ exports.handler = function(event,context,callback){
                 arr.push(res2);
                 console.log("Die Schleife ist: " + i +"mal durchgelaufen");
             }
-            console.log("Die Schleife wurde verlassen");
+            console.log("Die Schleife wurde verlassen"); //Test ob ich committen kann.
             var rueckgabe = arr.join("");
             console.log("Die rueckgabe Variable wurde befüllt")
             //console.log('BODY:', data.Body);
