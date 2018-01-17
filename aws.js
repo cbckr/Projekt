@@ -13,17 +13,24 @@ exports.handler = function(event,context,callback){
     };
     s3.getObject(params, function (err, data) {
         if (!err) {
-            var daten = data.toString();
-            var test = JSON.parse(daten);
+            //console.log("Es kamen Daten an und wir sind in die richtige Anweisung gesprungen");
+            //var daten = data.toString();
+            //console.log("toString war erfolgreich" + daten);
+            //var test = JSON.parse(daten);
             var arr = [];
+            console.log("Die Variablen wurden intialisiert");
 
             for(var i = 0;i < test.Body.data.length; ++i) {
                 var res = test.Body.data[i];
                 var res2 = String.fromCharCode(res);
                 arr.push(res2);
+                console.log("Die Schleife ist: " + i +"mal durchgelaufen");
             }
+            console.log("Die Schleife wurde verlassen");
             var rueckgabe = arr.join("");
+            console.log("Die rueckgabe Variable wurde befüllt")
             //console.log('BODY:', data.Body);
+            console.log(rueckgabe);
             callback(null, rueckgabe);
         }
         else {
