@@ -1,6 +1,5 @@
 // import entire SDK
 var AWS = require('aws-sdk');
-//var ep = new AWS.Endpoint('http://ergebnisse-email.s3-website-us-east-1.amazonaws.com');
 //Erstellen einer S3 Instanz und locken der API-Version
 var s3 = new AWS.S3({region: 'us-east-1', apiVersion: '2006-03-01'});
 
@@ -14,14 +13,18 @@ exports.handler = function(event,context,callback){
     };
     s3.getObject(params, function (err, data) {
         if (!err) {
-            console.log('BODY:', data.Body);
-            //var res = Daten.Body;
-            //var tst = res.data;
-            //for (var i = 0; i < tst.length; ++i) {
-            //    var res2 =  (tst[i]);
-            //}
-            //console.log('Es hat geklappt' + tst);
-            callback(null, data);
+            var daten = data.toString();
+            var test = JSON.parse(daten);
+            var arr = [];
+
+            for(var i = 0;i < test.Body.data.length; ++i) {
+                var res = test.Body.data[i];
+                var res2 = String.fromCharCode(res);
+                arr.push(res2);
+            }
+            var rueckgabe = arr.join("");
+            //console.log('BODY:', data.Body);
+            callback(null, rueckgabe);
         }
         else {
             console.log(err);
