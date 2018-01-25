@@ -1,3 +1,6 @@
+/*Das sind die Daten die von Amazon zurückkommen, wenn man das Objekt, welches gerade hochgeladen wurde abfragt per getObject().
+  Ich will dann gerne in das Dataarray um wie in test.js die Werte in nen String umwandeln zu können, damit ich im nächsten Service damit arbeiten kann.
+*/
 {
   "AcceptRanges": "bytes",
   "LastModified": "2018-01-14T22:31:48.000Z",

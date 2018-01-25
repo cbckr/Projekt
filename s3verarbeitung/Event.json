@@ -1,3 +1,5 @@
+/*Das ist das Event was übergeben wird, wenn die Funktion getriggert wird durch ein neu hochgeladenes Objekt.
+*/
 {
   "Records": [
     {
