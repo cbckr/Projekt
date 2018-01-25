@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1ac0d8f-f88f-42ee-af1d-8e766d5421bb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/S3Verarbeitung" afterPath="$PROJECT_DIR$/S3Verarbeitung" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/S3Verarbeitung" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -278,12 +275,12 @@
       <workItem from="1516190112704" duration="2403000" />
       <workItem from="1516196844077" duration="972000" />
       <workItem from="1516917426019" duration="71000" />
-      <workItem from="1516917711458" duration="420000" />
+      <workItem from="1516917711458" duration="526000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55145000" />
+    <option name="totallyTimeSpent" value="55251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="626" y="102" width="1877" height="1055" extended-state="6" />
