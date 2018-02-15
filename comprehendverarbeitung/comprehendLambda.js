@@ -28,7 +28,7 @@ exports.handler = function (event,context,callback) {
         for(var i = 0; i < workdata.length; ++i){
             a.push(workdata[i].Text);
         }
-        console.log(a);
+
     });
 
 };
