@@ -7,6 +7,11 @@ var AWS = require('aws-sdk');
 
 var comprehend = new AWS.Comprehend();
 var a = [];
+var countera = 0;
+var counterb = 0;
+var important = require('./dictionary_important');
+var normal = require('./dictionary_low');
+
 
 //Handler, welcher als Einstiegspunkt für Lambda dient
 exports.handler = function (event,context,callback) {
@@ -26,11 +31,40 @@ exports.handler = function (event,context,callback) {
         else
             var workdata = data.KeyPhrases;
         for(var i = 0; i < workdata.length; ++i){
-            a.push(workdata[i].Text);
+            a.push(workdata[i].Text.toLowerCase());
         }
-
+        console.log(a);
     });
 
+    //Analysiert ob die Daten, welche die Comprehendfunktion zurückgibt
+    //im übergebenen Array enthalten sind und zählt gegebenenfalls die
+    //entsprechend Zählervariable hoch
+    function analyze(Functiondata, Dictionary, Countervariable) {
+        for (var i = 0; i < Functiondata.length; ++i)
+            if (Dictionary.includes(Functiondata[i])) {
+                Countervariable += 1;
+            }
+        return Countervariable;
+    }
+
+    var resultimp = analyze(a,important,countera);
+    var resultnorm = analyze(a,normal,counterb);
+
+    //Entscheidet anhand der Zählvariablen, welche Wichtigkeit die Email besitzt
+    //TODO evaluation Funktion anpassen, damit sie etwas in den Entscheidungsteilen
+    //TODO macht (Wort in Array einfügen oder so, was wir dann ja per Mail verschicken
+    //TODO und welches wir dann mit unserem Emailfilter erkennen und es zum einordnen in Ordner nutzen
+    function evaluation(Functiondata_important,Functiondata_normal) {
+        if(Functiondata_important < Functiondata_normal){
+            console.log('Normal chosen');
+        }
+        else if(Functiondata_important == Functiondata_normal){
+            console.log('Important chosen (equal)');
+        }
+        else console.log('Important chosen');
+    }
+
+    evaluation(resultimp,resultnorm);
 };
 
 
