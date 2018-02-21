@@ -4,5 +4,11 @@
 module.exports = [
     'offer',
     'question',
-    'meeting'
+    'meeting',
+    'may',
+    'check',
+    'can',
+    'could',
+    'unfortunately',
+    'something'
 ];
