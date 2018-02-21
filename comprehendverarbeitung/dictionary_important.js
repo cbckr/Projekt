@@ -18,5 +18,9 @@ module.exports = [
     'error' ,
     'something wrong' ,
     "won't start" ,
-    "won't work"
+    "won't work" ,
+    'connection lost' ,
+    'trouble' ,
+    'troubleshooting' ,
+    'technical issues'
 ];
