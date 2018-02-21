@@ -13,5 +13,10 @@ module.exports = [
     'tried',
     'everything',
     'code red',
-    'alert'
+    'alert' ,
+    'unknown error' ,
+    'error' ,
+    'something wrong' ,
+    'wont start' ,
+    'wont work'
 ];
