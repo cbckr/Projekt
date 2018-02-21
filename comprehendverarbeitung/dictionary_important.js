@@ -17,6 +17,6 @@ module.exports = [
     'unknown error' ,
     'error' ,
     'something wrong' ,
-    'wont start' ,
-    'wont work'
+    "won't start" ,
+    "won't work"
 ];
