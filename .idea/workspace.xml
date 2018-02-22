@@ -2,461 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1ac0d8f-f88f-42ee-af1d-8e766d5421bb" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/.bin/he" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/.bin/html-to-text" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/.bin/tlds" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/addressparser/.npmignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/addressparser/CHANGELOG.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/addressparser/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/addressparser/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/addressparser/lib/addressparser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/addressparser/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/core-util-is/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/core-util-is/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/core-util-is/float.patch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/core-util-is/lib/util.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/core-util-is/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/core-util-is/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/dom-serializer/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/dom-serializer/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/dom-serializer/node_modules/domelementtype/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/dom-serializer/node_modules/domelementtype/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/dom-serializer/node_modules/domelementtype/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/dom-serializer/node_modules/domelementtype/readme.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/dom-serializer/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domelementtype/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domelementtype/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domelementtype/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domelementtype/readme.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/lib/element.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/lib/node.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/readme.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/cases/01-basic.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/cases/02-single_tag_1.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/cases/03-single_tag_2.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/cases/04-unescaped_in_script.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/cases/05-tags_in_comment.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/cases/06-comment_in_script.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/cases/07-unescaped_in_style.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/cases/08-extra_spaces_in_tag.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/cases/09-unquoted_attrib.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/cases/10-singular_attribute.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/cases/11-text_outside_tags.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/cases/12-text_only.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/cases/13-comment_in_text.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/cases/14-comment_in_text_in_script.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/cases/15-non-verbose.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/cases/16-normalize_whitespace.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/cases/17-xml_namespace.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/cases/18-enforce_empty_tags.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/cases/19-ignore_empty_tags.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/cases/20-template_script_tags.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/cases/21-conditional_comments.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/cases/22-lowercase_tags.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/cases/23-dom-lvl1.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/cases/24-with-start-indices.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/cases/25-with-end-indices.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domhandler/test/tests.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domutils/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domutils/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domutils/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domutils/lib/helpers.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domutils/lib/legacy.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domutils/lib/manipulation.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domutils/lib/querying.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domutils/lib/stringify.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domutils/lib/traversal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domutils/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domutils/readme.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domutils/test/fixture.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domutils/test/tests/helpers.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domutils/test/tests/legacy.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domutils/test/tests/traversal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/domutils/test/utils.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/entities/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/entities/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/entities/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/entities/lib/decode.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/entities/lib/decode_codepoint.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/entities/lib/encode.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/entities/maps/decode.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/entities/maps/entities.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/entities/maps/legacy.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/entities/maps/xml.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/entities/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/entities/readme.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/entities/test/mocha.opts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/entities/test/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/he/LICENSE-MIT.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/he/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/he/bin/he" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/he/he.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/he/man/he.1" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/he/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/html-to-text/.codeclimate.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/html-to-text/.eslintignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/html-to-text/.eslintrc.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/html-to-text/.npmignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/html-to-text/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/html-to-text/CHANGELOG.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/html-to-text/LICENSE-MIT" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/html-to-text/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/html-to-text/bin/cli.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/html-to-text/example/html-to-text.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/html-to-text/example/test.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/html-to-text/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/html-to-text/lib/formatter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/html-to-text/lib/helper.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/html-to-text/lib/html-to-text.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/html-to-text/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/html-to-text/test/html-to-text.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/html-to-text/test/test-address-dup.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/html-to-text/test/test-address.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/html-to-text/test/test-any-order.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/html-to-text/test/test-first-element.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/html-to-text/test/test.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/html-to-text/test/test.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/htmlparser2/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/htmlparser2/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/htmlparser2/lib/CollectingHandler.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/htmlparser2/lib/FeedHandler.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/htmlparser2/lib/Parser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/htmlparser2/lib/ProxyHandler.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/htmlparser2/lib/Stream.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/htmlparser2/lib/Tokenizer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/htmlparser2/lib/WritableStream.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/htmlparser2/lib/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/htmlparser2/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/.npmignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/Changelog.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/encodings/dbcs-codec.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/encodings/dbcs-data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/encodings/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/encodings/internal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/encodings/sbcs-codec.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/encodings/sbcs-data-generated.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/encodings/sbcs-data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/encodings/tables/big5-added.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/encodings/tables/cp936.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/encodings/tables/cp949.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/encodings/tables/cp950.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/encodings/tables/eucjp.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/encodings/tables/gbk-added.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/encodings/tables/shiftjis.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/encodings/utf16.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/encodings/utf7.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/lib/bom-handling.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/lib/extend-node.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/lib/index.d.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/lib/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/lib/streams.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/iconv-lite/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libbase64/.npmignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libbase64/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libbase64/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libbase64/lib/libbase64.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libbase64/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/.npmignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/CHANGELOG.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/lib/charset.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/lib/charsets.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/lib/libmime.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/lib/mimetypes.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/.npmignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/Changelog.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/encodings/dbcs-codec.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/encodings/dbcs-data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/encodings/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/encodings/internal.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/encodings/sbcs-codec.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/encodings/sbcs-data-generated.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/encodings/sbcs-data.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/encodings/tables/big5-added.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/encodings/tables/cp936.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/encodings/tables/cp949.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/encodings/tables/cp950.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/encodings/tables/eucjp.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/encodings/tables/gbk-added.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/encodings/tables/shiftjis.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/encodings/utf16.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/encodings/utf7.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/lib/bom-handling.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/lib/extend-node.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/lib/index.d.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/lib/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/lib/streams.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/node_modules/iconv-lite/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libmime/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libqp/.npmignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libqp/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libqp/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libqp/lib/libqp.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/libqp/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/linkify-it/CHANGELOG.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/linkify-it/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/linkify-it/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/linkify-it/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/linkify-it/lib/re.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/linkify-it/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/mailsplit/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/mailsplit/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/mailsplit/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/mailsplit/lib/flowed-decoder.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/mailsplit/lib/headers.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/mailsplit/lib/message-joiner.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/mailsplit/lib/message-splitter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/mailsplit/lib/mime-node.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/mailsplit/lib/node-rewriter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/mailsplit/lib/node-streamer.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/mailsplit/node_modules/libbase64/.eslintrc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/mailsplit/node_modules/libbase64/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/mailsplit/node_modules/libbase64/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/mailsplit/node_modules/libbase64/lib/libbase64.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/mailsplit/node_modules/libbase64/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/mailsplit/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/minimist/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/minimist/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/minimist/example/parse.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/minimist/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/minimist/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/minimist/readme.markdown" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/minimist/test/bool.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/minimist/test/dash.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/minimist/test/default_bool.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/minimist/test/dotted.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/minimist/test/long.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/minimist/test/num.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/minimist/test/parse.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/minimist/test/parse_modified.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/minimist/test/short.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/minimist/test/whitespace.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/example/bool.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/example/boolean_double.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/example/boolean_single.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/example/default_hash.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/example/default_singles.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/example/divide.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/example/line_count.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/example/line_count_options.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/example/line_count_wrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/example/nonopt.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/example/reflect.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/example/short.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/example/string.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/example/usage-options.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/example/xup.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/readme.markdown" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/test/_.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/test/_/argv.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/test/_/bin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/test/dash.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/test/parse.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/test/parse_modified.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/test/short.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/test/usage.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/optimist/test/whitespace.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/process-nextick-args/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/process-nextick-args/license.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/process-nextick-args/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/process-nextick-args/readme.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/readable-stream/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/readable-stream/CONTRIBUTING.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/readable-stream/GOVERNANCE.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/readable-stream/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/readable-stream/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/readable-stream/duplex-browser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/readable-stream/duplex.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/readable-stream/lib/_stream_duplex.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/readable-stream/lib/_stream_passthrough.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/readable-stream/lib/_stream_readable.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/readable-stream/lib/_stream_transform.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/readable-stream/lib/_stream_writable.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/readable-stream/lib/internal/streams/BufferList.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/readable-stream/lib/internal/streams/destroy.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/readable-stream/lib/internal/streams/stream-browser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/readable-stream/lib/internal/streams/stream.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/readable-stream/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/readable-stream/passthrough.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/readable-stream/readable-browser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/readable-stream/readable.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/readable-stream/transform.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/readable-stream/writable-browser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/readable-stream/writable.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/sprintf-js/.editorconfig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/sprintf-js/.eslintignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/sprintf-js/.eslintrc.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/sprintf-js/.npmignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/sprintf-js/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/sprintf-js/CHANGELOG.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/sprintf-js/CONTRIBUTORS" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/sprintf-js/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/sprintf-js/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/sprintf-js/benchmark/benchmark.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/sprintf-js/bower.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/sprintf-js/demo/angular.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/sprintf-js/dist/.gitattributes" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/sprintf-js/dist/angular-sprintf.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/sprintf-js/dist/angular-sprintf.min.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/sprintf-js/dist/sprintf.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/sprintf-js/dist/sprintf.min.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/sprintf-js/gulpfile.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/sprintf-js/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/sprintf-js/src/angular-sprintf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/sprintf-js/src/sprintf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/sprintf-js/test/test.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/sprintf-js/test/test_validation.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/string_decoder/.npmignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/string_decoder/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/string_decoder/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/string_decoder/lib/string_decoder.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/string_decoder/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/tlds/.npmignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/tlds/History.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/tlds/Readme.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/tlds/bin.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/tlds/cron.sh" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/tlds/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/tlds/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/uc.micro/CHANGELOG.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/uc.micro/LICENSE.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/uc.micro/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/uc.micro/categories/Cc/regex.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/uc.micro/categories/Cf/regex.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/uc.micro/categories/P/regex.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/uc.micro/categories/Z/regex.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/uc.micro/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/uc.micro/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/uc.micro/properties/Any/regex.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/.editorconfig" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/.eslintignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/.eslintrc" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/.npmignore" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/.travis.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/CHANGELOG.markdown" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/CONTRIBUTING.markdown" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/README.markdown" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/bower.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/camelize.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/capitalize.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/chars.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/chop.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/classify.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/clean.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/cleanDiacritics.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/component.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/count.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/dasherize.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/decapitalize.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/dedent.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/dist/underscore.string.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/dist/underscore.string.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/endsWith.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/escapeHTML.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/exports.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/helper/adjacent.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/helper/defaultToWhiteSpace.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/helper/escapeChars.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/helper/escapeRegExp.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/helper/htmlEntities.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/helper/makeString.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/helper/strRepeat.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/helper/toPositive.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/humanize.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/include.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/insert.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/isBlank.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/join.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/levenshtein.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/lines.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/lpad.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/lrpad.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/ltrim.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/map.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/meteor-post.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/meteor-pre.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/naturalCmp.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/numberFormat.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/package.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/pad.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/pred.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/prune.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/quote.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/repeat.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/replaceAll.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/reverse.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/rpad.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/rtrim.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/slugify.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/splice.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/sprintf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/startsWith.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/strLeft.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/strLeftBack.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/strRight.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/strRightBack.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/stripTags.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/succ.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/surround.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/swapCase.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/titleize.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/toBoolean.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/toNumber.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/toSentence.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/toSentenceSerial.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/trim.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/truncate.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/underscored.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/unescapeHTML.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/unquote.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/vsprintf.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/words.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore.string/wrap.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore/underscore-min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore/underscore-min.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/underscore/underscore.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/util-deprecate/History.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/util-deprecate/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/util-deprecate/README.md" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/util-deprecate/browser.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/util-deprecate/node.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/util-deprecate/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/wordwrap/LICENSE" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/wordwrap/README.markdown" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/wordwrap/example/center.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/wordwrap/example/meat.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/wordwrap/index.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/wordwrap/package.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/wordwrap/test/break.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/wordwrap/test/idleness.txt" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/s3verarbeitung/node_modules/wordwrap/test/wrap.js" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/comprehendverarbeitung/compproc.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/comprehendverarbeitung/dictionary_important.js" afterPath="$PROJECT_DIR$/comprehendverarbeitung/dictionary_important.js" />
-      <change beforePath="$PROJECT_DIR$/comprehendverarbeitung/test.js" afterPath="$PROJECT_DIR$/comprehendverarbeitung/test.js" />
+      <change beforePath="$PROJECT_DIR$/comprehendverarbeitung/comprehendLambda.js" afterPath="$PROJECT_DIR$/comprehendverarbeitung/comprehendLambda.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -478,7 +25,7 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.42604166">
+    <splitter split-orientation="horizontal" split-proportion="0.49127182">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="s3Lambda.js" pinned="false" current-in-tab="false">
@@ -494,8 +41,8 @@
           <file leaf-file-name="comprehendLambda.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/comprehendverarbeitung/comprehendLambda.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-252">
-                  <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+                <state relative-caret-position="656">
+                  <caret line="91" column="41" lean-forward="true" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
                   <folding />
                 </state>
               </provider>
@@ -515,31 +62,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="001.json" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/s3verarbeitung/001.json">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="0" selection-end-column="2" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="test.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/s3verarbeitung/test.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="600">
-                  <caret line="40" column="40" lean-forward="true" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="dictionary_important.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/comprehendverarbeitung/dictionary_important.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="234">
-                  <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+                <state relative-caret-position="720">
+                  <caret line="40" column="40" lean-forward="false" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
                   <folding />
                 </state>
               </provider>
@@ -550,16 +77,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="180">
                   <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="mimemail.txt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/s3verarbeitung/mimemail.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="288">
-                  <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
                   <folding />
                 </state>
               </provider>
@@ -608,11 +125,11 @@
         <option value="$PROJECT_DIR$/s3verarbeitung/s3Lambda.js" />
         <option value="$PROJECT_DIR$/s3verarbeitung/mimemail.js" />
         <option value="$PROJECT_DIR$/comprehendverarbeitung/test.js" />
-        <option value="$PROJECT_DIR$/comprehendverarbeitung/comprehendLambda.js" />
         <option value="$PROJECT_DIR$/s3verarbeitung/mimemail.txt" />
         <option value="$PROJECT_DIR$/s3verarbeitung/tst.json" />
         <option value="$PROJECT_DIR$/s3verarbeitung/test.js" />
         <option value="$PROJECT_DIR$/comprehendverarbeitung/dictionary_important.js" />
+        <option value="$PROJECT_DIR$/comprehendverarbeitung/comprehendLambda.js" />
       </list>
     </option>
   </component>
@@ -632,7 +149,7 @@
     <handled-path value="$PROJECT_DIR$/comprehendverarbeitung/node_modules" />
     <handled-path value="$PROJECT_DIR$/s3verarbeitung/node_modules" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-34" />
     <option name="width" value="1413" />
     <option name="height" value="789" />
@@ -674,10 +191,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -846,15 +363,17 @@
       <workItem from="1518808532194" duration="10230000" />
       <workItem from="1519069063472" duration="15646000" />
       <workItem from="1519157715427" duration="8368000" />
-      <workItem from="1519227444112" duration="286000" />
+      <workItem from="1519227444112" duration="883000" />
+      <workItem from="1519238329196" duration="1130000" />
+      <workItem from="1519320397154" duration="46000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111627000" />
+    <option name="totallyTimeSpent" value="113400000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-34" y="0" width="1920" height="1082" extended-state="6" />
+    <frame x="-34" y="0" width="1920" height="1082" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -886,36 +405,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295688" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30095038" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31876332" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299373" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21355236" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35112935" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16458334" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295688" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1020,14 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/s3verarbeitung/mimemail.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/s3verarbeitung/s3Lambda.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
@@ -1036,10 +517,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comprehendverarbeitung/comprehendLambda.js">
+    <entry file="file://$PROJECT_DIR$/s3verarbeitung/mimemail.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-252">
-          <caret line="6" column="10" lean-forward="false" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        <state relative-caret-position="288">
+          <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
           <folding />
         </state>
       </provider>
@@ -1052,18 +533,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/s3verarbeitung/test.js">
+    <entry file="file://$PROJECT_DIR$/comprehendverarbeitung/dictionary_important.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" column="40" lean-forward="true" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+        <state relative-caret-position="234">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/comprehendverarbeitung/dictionary_important.js">
+    <entry file="file://$PROJECT_DIR$/s3verarbeitung/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        <state relative-caret-position="720">
+          <caret line="40" column="40" lean-forward="false" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/comprehendverarbeitung/comprehendLambda.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="91" column="41" lean-forward="true" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
           <folding />
         </state>
       </provider>

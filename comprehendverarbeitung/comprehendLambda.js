@@ -50,7 +50,7 @@ exports.handler = function (event,context,callback) {
 
     //Entscheidet anhand der Zählvariablen, welche Wichtigkeit die Email besitzt
         function evaluation(Functiondata_important,Functiondata_normal) {
-        if(Functiondata_important < Functiondata_normal){
+        if(Functiondata_important > Functiondata_normal){
             ses.sendEmail({Destination: {
                     ToAddresses: ['stromemail001@gmail.com']},
                 Message: {
