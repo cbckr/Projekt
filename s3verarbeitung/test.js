@@ -11,6 +11,8 @@ var simpleparser = require('mailparser').simpleParser;
 //             }
 // });
 
+
+
 // import entire SDK
 var AWS = require('aws-sdk');
 //Erstellen einer S3 Instanz und locken der API-Version
@@ -49,4 +51,18 @@ exports.handler = function(event,context,callback){
         }
     })
 };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
