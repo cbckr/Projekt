@@ -4,13 +4,17 @@ var AWS = require('aws-sdk');
 //Erstellen einer SES Instanz, um die Ergebnisse per Maill zu verschicken
 var ses = new AWS.SES();
 var comprehend = new AWS.Comprehend();
+//Erstellen eines Mailparsers, welcher die eingehende Emails verarbeitet
+var simpleparser = require('mailparser').simpleParser;
+//Importieren des Jira-Clienten, welcher API Anfragen ermöglicht
+var JiraApi = require('jira-client');
+var jira = new JiraApi('https', process.env.JIRA_HOST, 443, process.env.JIRA_USER, process.env.JIRA_PW, '2');
+//Einlesen der Wörterbücher, welche zur Kategorisierung benutzt werden
+var important = require('./dictionary_important');
+var normal = require('./dictionary_normal');
 var a = [];
 var countera = 0;
 var counterb = 0;
-var important = require('./dictionary_important');
-var normal = require('./dictionary_normal');
-var simpleparser = require('mailparser').simpleParser;
-
 
 //Handler, welcher als Einstiegspunkt für Lambda dient
 exports.handler = function (event) {
@@ -66,7 +70,7 @@ exports.handler = function (event) {
         //Entscheidet anhand der Zählvariablen, welche Wichtigkeit die Email besitzt
         function evaluation(Functiondata_important,Functiondata_normal) {
 
-            if(Functiondata_important > Functiondata_normal){
+            if(Functiondata_important >= Functiondata_normal){
                 ses.sendEmail({Destination: {
                         ToAddresses: ['stromemail001@gmail.com']},
                     Message: {
@@ -84,27 +88,29 @@ exports.handler = function (event) {
                     Source: 'stromemail001@gmail.com'
 
                 },function (err) { console.log(err) });
-            }
-            else if(Functiondata_important == Functiondata_normal) {
-                if (Functiondata_important > Functiondata_normal) {
-                    ses.sendEmail({Destination: {
-                            ToAddresses: ['stromemail001@gmail.com']},
-                        Message: {
-                            Body:{
-                                Text: {
-                                    Charset: 'UTF-8',
-                                    Data: "FROM: "+from+"      TO: "+to+"\n"+text
-                                }
-                            },
-                            Subject: {
-                                Charset: 'UTF-8',
-                                Data: '[Important]' + subject
-                            }
-                        },
-                        Source: 'stromemail001@gmail.com'
 
-                    },function (err) { console.log(err) });
-                }
+                var jiradata = {
+                    "fields": {
+                        "project": {
+                            "key": process.env.JIRA_PROJECT
+                        },
+                        "summary": '[Important]' + subject,
+                        "description": "FROM: "+from+"      TO: "+to+"\n"+text,
+                        "issuetype": {
+                            "name": process.env.JIRA_ISSUE_TYPE
+                        }
+                    }
+                };
+
+                jira.addNewIssue(jiradata,function(err,data){
+                    if (err) {
+                        printWarning('There was an error during the creation of the ticket "'+subject+'"\n'+err);
+                    }
+                    else{
+                        printOutput('Created ticket "'+subject+'"\n'+data);
+                    }
+                    callback(err, data);
+                });
             }
             else
                 ses.sendEmail({Destination: {
@@ -129,3 +135,4 @@ exports.handler = function (event) {
         })
     });
 };
+

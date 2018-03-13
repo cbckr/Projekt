@@ -1,16 +1,15 @@
 //Importieren der AWS-SDK um mit dieser arbeiten zu können
 var AWS = require('aws-sdk');
 //Erstellen einer Comprehend Instanz, welche die Analyse der Rohdaten übernimmt
-//Erstellen einer SES Instanz, um die Ergebnisse per Maill zu verschicken
+//Erstellen einer SES Instanz, um die Ergebnisse per Mail zu verschicken
 var ses = new AWS.SES();
 var comprehend = new AWS.Comprehend();
+
+var important = require('./dictionary_important');
+var normal = require('./dictionary_normal');
 var a = [];
 var countera = 0;
 var counterb = 0;
-var important = require('./dictionary_important');
-var normal = require('./dictionary_normal');
-
-
 
 //Handler, welcher als Einstiegspunkt für Lambda dient
 exports.handler = function (event) {
@@ -52,26 +51,7 @@ exports.handler = function (event) {
 
         //Entscheidet anhand der Zählvariablen, welche Wichtigkeit die Email besitzt
         function evaluation(Functiondata_important,Functiondata_normal) {
-            if(Functiondata_important > Functiondata_normal){
-                ses.sendEmail({Destination: {
-                        ToAddresses: ['stromemail001@gmail.com']},
-                    Message: {
-                        Body:{
-                            Text: {
-                                Charset: 'UTF-8',
-                                Data: incdata
-                            }
-                        },
-                        Subject: {
-                            Charset: 'UTF-8',
-                            Data: '[Important]'
-                        }
-                    },
-                    Source: 'stromemail001@gmail.com'
-
-                },function (err) { console.log(err) });
-            }
-            else if(Functiondata_important == Functiondata_normal){
+            if(Functiondata_important >= Functiondata_normal){
                 ses.sendEmail({Destination: {
                         ToAddresses: ['stromemail001@gmail.com']},
                     Message: {
@@ -109,9 +89,6 @@ exports.handler = function (event) {
 
                 },function (err) { console.log(err) });
         }
-
-
         evaluation(resultimp,resultnorm);
-
     });
 };
