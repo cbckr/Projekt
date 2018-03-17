@@ -1,0 +1,10 @@
+In diesen Ordnern sind die verwendeten Module nicht enthalten, weil die Modulordner mehrer MB groß waren und den
+Emailversand verhindert hätten.
+Falls es gewünscht ist die Module zu installieren muss nach folgenden Schritten vorgegangen werden:
+
+1. NodeJS auf dem Rechner installieren 
+Ob die Installation geglückt ist, kann in der Kommandozeile überprüft werden. Wenn man node eintippt sollte das Symbol > erscheinen, durch
+Strg+C verlässt man das Programm wieder. 
+
+2. Man navigiert per Kommandozeile in den Ordner, indem der jeweilige Code extrahiert wurde, gibt den Befehl npm install ein und es werden 
+alle Module installiert.
